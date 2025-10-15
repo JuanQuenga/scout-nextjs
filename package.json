@@ -1,34 +1,8 @@
 {
   "name": "scout-web",
-  "private": true,
-  "version": "0.1.0",
-  "description": "Scout Next.js web app",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "^15.0.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.13",
-    "tailwindcss": "^4.1.13",
-    "typescript": "^5.9.2"
-  },
-  "engines": {
-    "node": ">=18.18.0"
-  },
-  "packageManager": "pnpm@10.14.0"
-}
-
-{
-  "name": "scout-web",
   "version": "1.0.1",
   "private": true,
+  "description": "Scout Next.js web app",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -52,5 +26,9 @@
     "@tailwindcss/postcss": "^4.1.13",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6"
-  }
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "packageManager": "pnpm@10.14.0"
 }
