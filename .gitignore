@@ -4,7 +4,7 @@ node_modules/
 .pnpm-debug.log*
 
 # Next.js
-.next/
+.next
 out/
 
 # Production
